@@ -184,7 +184,7 @@ body {
                     background-size: 3rem;
                     background-position: center;
                 }
-                .telegrem {background-image: url("../svg/telegram.svg");}
+                .telegrem {background-image: url("svg/telegram.svg");}
                 .whatsApp {background-image: url("../svg/whatsApp.svg");}
                 .skype {background-image: url("../svg/skype.svg");}
                 .ok {background-image: url("../svg/Odnoklassniki.svg");}
