@@ -101,6 +101,7 @@
                     <p id="nethtml" name="nethtml">HTML верстка с нуля до первого макета</p>
                     <p id="netadapt" name="netadapt">Адаптивная и мобильная верстка</p>
                     <p id="netprog"name="netprog">Основы программирования</p>
+                    <p id="netgit"name="netgit">Git - Система контроля версий</p>
                 </div>
             </div>
         </div>    
@@ -188,11 +189,11 @@
     const certnames = certificates.querySelectorAll('p[name]');
     for(let certname of certnames){ 
         certname.addEventListener('click', function(){
-            let allimgurl = new Map([['sohtml', ' url("../sertificates/sololearnHTML.png")'], ['socss', ' url("../sertificates/sololearnCSS.png")'],
-                ['sojs', ' url("../sertificates/sololearnJS.png")'], ['sophp', ' url("../sertificates/sololearnPHP.png")'],
-                ['sosql', ' url("../sertificates/sololearnSQL.png")'], ['stepik', ' url("../sertificates/stehik.png")'],
-                ['nethtml', ' url("../sertificates/html-layout.png")'], ['netadapt', ' url("../sertificates/netologi-adaptive.png")'],
-                ['netprog', ' url("../sertificates/hetologi bazis program.png")'],]);
+            let allimgurl = new Map([['sohtml', ' url("sertificates/sololearnHTML.png")'], ['socss', ' url("sertificates/sololearnCSS.png")'],
+                ['sojs', ' url("sertificates/sololearnJS.png")'], ['sophp', ' url("sertificates/sololearnPHP.png")'],
+                ['sosql', ' url("sertificates/sololearnSQL.png")'], ['stepik', ' url("sertificates/stehik.png")'],
+                ['nethtml', ' url("sertificates/html-layout.png")'], ['netadapt', ' url("sertificates/netologi-adaptive.png")'],
+                ['netprog', ' url("sertificates/hetologi bazis program.png")'], ['netgit', 'url("sertificates/netology-git.png")'], ]);
             let namecert = certname.getAttribute('name');
             let imgurl = allimgurl.get(namecert);
             serimage.style.backgroundImage = imgurl;
